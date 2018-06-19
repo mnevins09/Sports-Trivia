@@ -1,0 +1,46 @@
+body {
+	background: url("http://kentbudgephotography.com/blog/wp-content/uploads/2012/01/soccer-field-4_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color: white;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#timerDiv {
+	color: red;
+	display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2 {
+	color: red;
+}
+
+.options {
+	margin-top: 15px;
+}
+
+#questionAsked {
+	color: white;
+	display: none;
+}
+
+#checkAnswer {
+	color: white;
+	display: none;
+}
+
+#startButton {
+	margin-top: 150px;
+}
+
+#startOverButton{
+	margin-top: 50px;
+	display: none;
+}
+

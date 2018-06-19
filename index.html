@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sports Trivia</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+	
+	<!-- Start the container that will hold the game -->
+	<div class="container">
+
+        <!--Title Header-->
+		<div class="row">
+            <div class = "col-md-2"></div>
+			<div class="col-md-8">
+			  <h1 class="text-center">Sports Trivia</h1>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+
+		<!-- Start button div -->
+		<div class="row">
+			<div class="col-md-4"></div>
+            <button type="button" id="startButton" class="btn btn-primary btn-lg col-md-4">START</button>
+            <div class = "col-md-4"></div>
+		</div>
+
+		<!-- Questions div -->
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div id="questionAsked" class="text-center col-md-6">
+				<div class="row">
+					<div id="theQuestion" class="col-md-12">theQuestion</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<button type="button" class="btn btn-primary btn-md col-md-6 options" id="button0" data-value=0>Button0</button>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<button type="button" class="btn btn-primary btn-md col-md-6 options" id="button1" data-value=1>Button1</button>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<button type="button" class="btn btn-primary btn-md col-md-6 options" id="button2" data-value=2>Button2</button>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<button type="button" class="btn btn-primary btn-md col-md-6 options" id="button3" data-value=3>Button3</button>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<!-- Answer div -->
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div id="answer" class="text-center col-md-6"></div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<!-- Timer div -->
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div id="timerDiv" class="text-center col-md-6"></div>
+			<div class="col-md-3"></div>
+		</div>
+
+		<!-- Start Over button div -->
+		<div class="row">
+			<div class="col-md-4"></div>
+			<button type="button" id="startOverButton" class="btn btn-primary btn-lg col-md-4">Start Over</button>
+			<div class="col-md-4"></div>
+        </div>
+        
+        
+	<!-- End the container -->
+    </div>
+    
+</body>
+
+</html>
